@@ -72,5 +72,11 @@ Increasing the number of layers (e.g., 200, 500) and using different activation 
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/round_two.png)
 
+**Adding a third layer** 
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/3_layers_1.png)
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/3_layers_2.png)
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/3_layers_3.png)
+
 ## Summary
-The NN model did not reach the target of 75% accuracy.  As this is a binary classification, a supervised machine learning model such as the Random Forest Classifier or other ensemble models might produce better results.
+The NN model did not reach the target of 75% accuracy.  As this is a binary classification, a supervised machine learning model such as the Random Forest Classifier or other ensembleor vector models might produce better results.
