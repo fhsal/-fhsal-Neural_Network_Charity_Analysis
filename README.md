@@ -51,7 +51,7 @@ involved adding major earthquake data as a layer to the map, as for tectonic pla
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/train_model.png)
 
 
-**First round with model** 
+**First round with model, 100 Epochs** 
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/round_one.png)
 
@@ -60,7 +60,7 @@ The NN model has two hidden layers with 80 and 30 neurons respectively.  The out
 
 Increasing the number of layers (e.g., 200, 500) and using different activation functions (e.g., Tanh) does not improve model performance 
 
-**Second round with model** 
+**Second round with model, 500 Epochs** 
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/round_two.png)
 
