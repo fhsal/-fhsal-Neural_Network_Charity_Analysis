@@ -22,15 +22,21 @@ The effort involved using Tensorflow and Sklearn to build neural network models.
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/drop_EIN_Name.png)
 
 
-**Application count distribution and grouping** 
+**Application count distribution** 
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/application_counts_profile.png)
+
+**grouping**
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/application_other.png)
 
 **Classification count distribution** 
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/classification_counts_profile.png)
+
+**grouping**
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/classification_other.png)
 
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model
