@@ -16,42 +16,55 @@ The effort involved using Tensorflow and Sklearn to build neural network models.
 * The column IS_SUCCESSFUL is binary refering to charity donation being effective and is the target 
 * The columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for the model and are categorical variables which were encoded, grouped and split into training testing datasets and then standardized using standardScaler
 
-- 
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake1_module.png)
+**Drop EIN and Name columns** 
 
-- 
-
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake1_module.png)
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/drop_EIN_Name.png)
 
 
-- 
+**Application count distribution and grouping** 
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake1_module.png)
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/application_counts_profile.png)
 
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/application_other.png)
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake1_module.png)
+**Classification count distribution** 
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake1_module.png)
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/classification_counts_profile.png)
+
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model
 involved adding major earthquake data as a layer to the map, as for tectonic plates.  As these overlay with the existing earthquake data it was necessary to modify the rendering so that the major earthquakes could be easily visible on the map
 
-* Major earthquakes 
+**Complile model**
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake2_major_quakes.png)
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/compile_model.png)
 
+**Train model**
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/train_model.png)
+
+
+**First round with model** 
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/round_one.png)
 
 ### Deliverable 3: Optimize the Model
 The NN model has two hidden layers with 80 and 30 neurons respectively.  The output layer is binary classification using Sigmoid.   The activation function is Relu and optimization is adam with loss function of binary_crossentropy.  Model accuracy is slightly under 73%. 
 
 Increasing the number of layers (e.g., 200, 500) and using different activation functions (e.g., Tanh) does not improve model performance 
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake2_satellite.png)
+**Second round with model** 
 
-* Light 
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/round_two.png)
 
-![img](https://github.com/fhsal/Mapping_Earthquakes/blob/main/Earthquake_Challenge/images/quake2_light.png)
+**Using Tanh** 
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/tanh_one.png)
+
+**Second round with model** 
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/round_two.png)
 
 ## Summary
 The NN model did not reach the target of 75% accuracy.  As this is a binary classification, a supervised machine learning model such as the Random Forest Classifier or other ensemble models might produce better results.
