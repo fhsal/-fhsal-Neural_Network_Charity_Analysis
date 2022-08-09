@@ -38,6 +38,14 @@ The effort involved using Tensorflow and Sklearn to build neural network models.
 
 ![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/classification_other.png)
 
+**encode**
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/encode.png)
+
+**merge**
+
+![img](https://github.com/fhsal/Neural_Network_Charity_Analysis/blob/main/images/merge.png)
+
 
 ### Deliverable 2: Compile, Train, and Evaluate the Model
 involved adding major earthquake data as a layer to the map, as for tectonic plates.  As these overlay with the existing earthquake data it was necessary to modify the rendering so that the major earthquakes could be easily visible on the map
